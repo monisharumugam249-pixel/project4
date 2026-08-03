@@ -70,7 +70,7 @@
 
     <p>
         A clean and simple Java-based web application deployed on 
-        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using Maven</strong>.
+        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using pipe Maven</strong>.
     </p>
 
     <div class="info">
