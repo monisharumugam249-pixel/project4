@@ -70,12 +70,12 @@
 
     <p>
         A clean and simple Java-based web application deployed on 
-        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using weekhooks</strong>.
+        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using webhooks</strong>.
     </p>
 
     <div class="info">
         <p><strong>Application Type:</strong> Java Web Application</p>
-        <p><strong>Build Tool:</strong> Maven</p>
+        <p><strong>Build Tools:</strong> Maven</p>
         <p><strong>Java Version:</strong> JDK 17</p>
         <p><strong>Server:</strong> Apache Tomcat</p>
         <p><strong>Packaging:</strong> WAR</p>
