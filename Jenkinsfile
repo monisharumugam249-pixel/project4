@@ -81,7 +81,7 @@ pipeline {
                             sudo cp /tmp/\$WAR_NAME /usr/tomcat/tomcat10/webapps/${artifactId}.war
 
                             echo "Starting Tomcat..."
-                            sudo /usr/tomcat/tomcat10/bin/startup.sh || echo 'Tomcat startup might need manual check'
+                            sudo /usr/tomcat/tomcat11/bin/startup.sh || echo 'Tomcat startup might need manual check'
 
                             echo "Deployment completed successfully: \$WAR_NAME"
                         """
