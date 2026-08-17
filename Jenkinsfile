@@ -72,13 +72,13 @@ pipeline {
                             curl -u "\$ART_USER:\$ART_PASS" -o /tmp/\$WAR_NAME \$ARTIFACT_URL
 
                             echo "Stopping Tomcat..."
-                            sudo /usr/tomcat/tomcat10/bin/shutdown.sh || echo 'Tomcat may already be stopped'
+                            sudo /usr/tomcat/tomcat11/bin/shutdown.sh || echo 'Tomcat may already be stopped'
 
                             echo "Removing old WAR..."
-                            sudo rm -f /usr/tomcat/tomcat10/webapps/${artifactId}.war
+                            sudo rm -f /usr/tomcat/tomcat11/webapps/${artifactId}.war
 
                             echo "Deploying new WAR to Tomcat webapps..."
-                            sudo cp /tmp/\$WAR_NAME /usr/tomcat/tomcat10/webapps/${artifactId}.war
+                            sudo cp /tmp/\$WAR_NAME /usr/tomcat/tomcat11/webapps/${artifactId}.war
 
                             echo "Starting Tomcat..."
                             sudo /usr/tomcat/tomcat11/bin/startup.sh || echo 'Tomcat startup might need manual check'
