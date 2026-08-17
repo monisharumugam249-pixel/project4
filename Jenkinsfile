@@ -47,7 +47,7 @@ pipeline {
                         def baseUrl = "http://13.234.204.197:8081/artifactory/libs-snapshot-local"
                         def groupPath = "com/example/sample-webapp"
                         def artifactId = "sample-webapp"
-                        def version = "1.2-SNAPSHOT"
+                        def version = "1.4-SNAPSHOT"
                         def metadataUrl = "${baseUrl}/${groupPath}/${version}/maven-metadata.xml"
 
                         sh """
