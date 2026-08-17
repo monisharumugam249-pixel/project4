@@ -39,7 +39,7 @@ pipeline {
      stage('Download Latest SNAPSHOT WAR and Deploy') {
             steps {
                 withCredentials([usernamePassword(
-                    credentialsId: 'jfrog_pass', 
+                    credentialsId: 'jfrog_art', 
                     usernameVariable: 'ART_USER', 
                     passwordVariable: 'ART_PASS'
                 )]) {
