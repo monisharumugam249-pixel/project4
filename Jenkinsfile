@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                configFileProvider([configFile(fileId: 'd1cd799f-298c-4a03-9b2a-69b5dbb12ef4', variable:'MAVEN_SETTINGS')]) {
+                configFileProvider([configFile(fileId: '1a93c845-4d8f-42ab-bf52-f86b627889df', variable:'MAVEN_SETTINGS')]) {
                     sh 'mvn deploy -s $MAVEN_SETTINGS'
                 }
             }
