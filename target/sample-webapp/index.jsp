@@ -70,9 +70,7 @@
 
     <p>
         A clean and simple Java-based web application deployed on 
-<<<<<<< HEAD
-        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using jfrog jsp</strong>.
-
+        <strong>Apache Tomcat</strong> and built using <strong>JENKINS using webkooks triggers.</strong>
     </p>
 
     <div class="info">
@@ -81,11 +79,7 @@
         <p><strong>Java Version:</strong> JDK 17</p>
         <p><strong>Server:</strong> Apache Tomcat</p>
         <p><strong>Packaging:</strong> WAR</p>
-<<<<<<< HEAD
-	    <p><strong>hello world guyse</p>
-=======
 
->>>>>>> ddcce6b20abe5c14ae172933251d74fe2c914b84
     </div>
 
     <footer>
